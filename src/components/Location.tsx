@@ -3,11 +3,11 @@ export default function Location() {
     <>
       <section id="locations" className="section-sm">
         <div className="container">
-          <div className="section-head" style={{margin-bottom:3rem}}>
+          <div className="section-head" style={{marginBottom:"3rem"}}>
             <div className="reveal">
               <span className="eyebrow">Наши отделения</span>
             </div>
-            <h2 className="section-title reveal d-1" style={{font-size:clamp(1.8rem,3.5vw,2.8rem)}}>
+            <h2 className="section-title reveal d-1" style={{fontSize:"clamp(1.8rem,3.5vw,2.8rem)"}}>
               Два центра в Киеве
             </h2>
           </div>
