@@ -9,7 +9,7 @@ export default function Footer() {
 						</div>
 						<div className="footer-brand-sub">Клиника восстановления</div>
 						<p className="footer-brand-desc">
-							Частная наркологическая клиника в Киеве. 21 год помогаем людям
+							Частная наркологическая клиника в Астане. 21 год помогаем людям
 							обрести свободную жизнь без зависимостей.
 						</p>
 					</div>
@@ -81,13 +81,13 @@ export default function Footer() {
 						<a href="mailto:crmrenessans1@gmail.com" className="footer-email">
 							crmrenessans1@gmail.com
 						</a>
-						<div className="footer-addr">ул. Казацкая 88, Киев</div>
-						<div className="footer-lic">Лицензия МЗ Украины №1584/23/М</div>
+						<div className="footer-addr">ул. Казацкая 88, Астана</div>
+						<div className="footer-lic">Лицензия МЗ Казахстана №1584/23/М</div>
 					</div>
 				</div>
 				<div className="footer-bottom">
 					<span className="footer-copy">
-						© 2024 Recovery. Все права защищены.
+						© 20246Recovery. Все права защищены.
 					</span>
 					<span className="footer-tag">Частная наркологическая клиника</span>
 				</div>

@@ -30,7 +30,7 @@ export default function Сontacts() {
 								<div className="contact-ico-wrap">📍</div>
 								<div>
 									<div className="contact-lbl">Адрес</div>
-									<span className="contact-val">г. Киев, ул. Казацкая, 88</span>
+									<span className="contact-val">г. Астана, ул. Казацкая, 88</span>
 								</div>
 							</div>
 							<div className="contact-item">
@@ -96,101 +96,6 @@ export default function Сontacts() {
 							>
 								💬 WhatsApp
 							</a>
-						</div>
-					</div>
-					<div className="reveal-r d-2">
-						<div className="form-box" id="formBox">
-							<h3
-								style={{
-									fontFamily: "'Playfair Display',serif",
-									fontSize: "1.5rem",
-									fontWeight: 600,
-									color: "var(--sap-800)",
-									marginBottom: ".5rem",
-								}}
-							>
-								Оставить заявку
-							</h3>
-							<p
-								style={{
-									fontSize: ".87rem",
-									color: "var(--ink-500)",
-									marginBottom: "2rem",
-									lineHeight: "1.65",
-									fontWeight: 300,
-								}}
-							>
-								Мы перезвоним вам в течение 15 минут и ответим на все вопросы
-							</p>
-							<form id="contactForm" onSubmit={submitForm}>
-								<div className="form-grid">
-									<div>
-										<label className="label">Ваше имя</label>
-										<input
-											className="input"
-											type="text"
-											value={form.name}
-											onChange={(e) => setForm({ ...form, name: e.target.value })}
-											placeholder="Как к вам обращаться?"
-											required
-										/>
-									</div>
-									<div>
-										<label className="label">Телефон</label>
-										<input
-											className="input"
-											type="tel"
-											value={form.phone}
-											onChange={(e) => setForm({ ...form, phone: e.target.value })}
-											placeholder="+38 (0__) ___ __ __"
-											required
-										/>
-									</div>
-									<div className="form-row">
-										<label className="label">Сообщение</label>
-										<textarea
-											className="input"
-											rows={5}
-											value={form.message}
-											onChange={(e) => setForm({ ...form, message: e.target.value })}
-											placeholder="Расскажите о вашей ситуации (необязательно)..."
-										></textarea>
-									</div>
-									<div className="form-row">
-										<button
-											type="submit"
-											className="btn btn-primary"
-											style={{
-												width: "100%",
-												justifyContent: "center",
-												padding: "1.1rem 2rem",
-												fontSize: ".85rem",
-											}}
-										>
-											Отправить заявку
-											<svg
-												width="16"
-												height="16"
-												fill="none"
-												viewBox="0 0 24 24"
-												stroke="currentColor"
-												strokeWidth="2"
-											>
-												<path
-													strokeLinecap="round"
-													strokeLinejoin="round"
-													d="M17 8l4 4m0 0l-4 4m4-4H3"
-												/>
-											</svg>
-										</button>
-										{sent && <p style={{ color: "green" }}>Заявка отправлена ✅</p>}
-									</div>
-								</div>
-							</form>
-							<p className="form-note">
-								🔒 Ваши данные строго конфиденциальны и никогда не передаются
-								третьим лицам
-							</p>
 						</div>
 					</div>
 				</div>

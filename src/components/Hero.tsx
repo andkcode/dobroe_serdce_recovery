@@ -172,7 +172,7 @@ export default function Hero() {
 					<div>
 						<div className="hero-badge">
 							<span className="hero-dot"></span>
-							Частная клиника · Киев · Лицензия МЗ №1584
+							Частная клиника · Астана · Лицензия МЗ №1584
 						</div>
 
 						<h1 className="hero-title font-display">
@@ -185,7 +185,7 @@ export default function Hero() {
 						<p className="hero-sub font-body">
 							21 год помогаем людям преодолевать зависимость. Индивидуальный
 							подход, передовые методы лечения и полная анонимность в сердце
-							Киева.
+							Астаны.
 						</p>
 
 						<div className="hero-ctas">

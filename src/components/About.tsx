@@ -21,7 +21,7 @@ export default function About() {
 												marginBottom: ".4rem",
 											}}
 										>
-											Центр Recovery · Киев
+											Центр Recovery · Астана
 										</div>
 										<div
 											style={{
