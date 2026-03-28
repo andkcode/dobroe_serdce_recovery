@@ -226,13 +226,10 @@ export default function Hero() {
 						</div>
 						<div
 							style={{
-								position: "absolute",
-								bottom: "25%",
-								left: "5%",
-								right: "-3%",
 								display: "flex",
 								alignItems: "center",
 								gap: "3rem",
+								marginTop: "2rem",
 							}}
 						>
 							<div
