@@ -3,13 +3,6 @@ import { useTranslation } from "react-i18next";
 
 export default function Contacts() {
 	const { t } = useTranslation();
-	const [form, setForm] = useState({ name: "", phone: "", message: "" });
-	const [sent, setSent] = useState(false);
-
-	const submitForm = (e: React.FormEvent<HTMLFormElement>) => {
-		e.preventDefault();
-		setSent(true);
-	};
 
 	return (
 		<section id="contact" className="section">
