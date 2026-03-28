@@ -13,6 +13,7 @@ import Stats from "./components/Stats";
 import Team from "./components/Team";
 import Testimonials from "./components/Testimonials";
 import DetoxAccordion from "./components/DetoxAccordion";
+import Location from "./components/Location";
 import "./index.css";
 
 export default function App() {
@@ -90,6 +91,7 @@ export default function App() {
 				<Team />
 				<Testimonials />
 				<FAQ />
+				<Location />
 				<CTA />
 				<Contacts />
 			</main>

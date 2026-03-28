@@ -14,7 +14,7 @@ export default function Contacts() {
 	return (
 		<section id="contact" className="section">
 			<div className="container">
-				<div className="contact-grid">
+				<div className="contact-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem", alignItems: "start" }}>
 					<div>
 						<div className="reveal">
 							<span className="eyebrow">{t('contacts.eyebrow')}</span>
@@ -70,6 +70,14 @@ export default function Contacts() {
 							</a>
 						</div>
 					</div>
+					<iframe
+						width="100%"
+						height="100%"
+						style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", border: "none" }}
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2842.3961842450986!2d71.4491!3d51.1694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38848a9e9e9e9e9d%3A0x1234567890!2s%D0%BF%D1%80%D0%BE%D1%81%D0%BF.%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8%2034%2C%20Astana!5e0!3m2!1sru!2skz!4v1234567890"
+						loading="lazy"
+						referrerPolicy="no-referrer-when-downgrade"
+					/>
 				</div>
 			</div>
 		</section>
