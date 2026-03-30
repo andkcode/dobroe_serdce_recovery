@@ -172,7 +172,7 @@ export default function Hero() {
 
 						<h1 className="hero-title font-display">
 							{t('hero.title').split('\n').map((line, i) => (
-								<span key={i}>{line}<br /></span>
+								<span key={i}>{line}<br className="hero-title-break" /></span>
 							))}
 						</h1>
 
@@ -198,7 +198,6 @@ export default function Hero() {
 						<div className="hero-trust">
 							<div className="hero-trust-item"><span className="ico">🔒</span>{t('hero.trust1')}</div>
 							<div className="hero-trust-item"><span className="ico">⚡</span>{t('hero.trust2')}</div>
-							<div className="hero-trust-item"><span className="ico">🏥</span>{t('hero.trust3')}</div>
 						</div>
 					</div>
 
@@ -207,7 +206,7 @@ export default function Hero() {
 							<div style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.35rem", fontWeight: 600, color: "#fff", marginBottom: ".4rem" }}>
 								{t('hero.program')}
 							</div>
-							<p style={{ fontSize: ".84rem", color: "rgba(255,255,255,.52)", fontWeight: 300, lineHeight: 1.6, marginBottom: 0 }}>
+							<p style={{ fontSize: ".84rem", color: "rgba(255, 255, 255, 0.7)", fontWeight: 300, lineHeight: 1.6, marginBottom: 0 }}>
 								{t('hero.programDesc')}
 							</p>
 
@@ -224,85 +223,7 @@ export default function Hero() {
 								))}
 							</div>
 						</div>
-						<div
-							style={{
-								display: "flex",
-								alignItems: "center",
-								gap: "3rem",
-								marginTop: "2rem",
-							}}
-						>
-							<div
-								className="hero-badge-float2 anim-float"
-								style={{ animationDelay: "1.5s", position: "static" }}
-							>
-								<svg
-									width="16"
-									height="16"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="var(--sap-950)"
-									strokeWidth="2.5"
-								>
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-									/>
-								</svg>
-								{t('hero.phone')}
-							</div>
-
-							<div
-								className="hero-badge-float glass-gold"
-								style={{
-									position: "static",
-									borderRadius: "1.35rem",
-									padding: "1rem 1.5rem",
-									display: "flex",
-									alignItems: "center",
-									gap: "0.8rem",
-									flex: 1,
-								}}
-							>
-								<div
-									style={{
-										width: 42,
-										height: 42,
-										borderRadius: "50%",
-										background:
-											"linear-gradient(135deg,var(--sap-700),var(--sap-600))",
-										display: "flex",
-										alignItems: "center",
-										justifyContent: "center",
-										fontSize: "1.3rem",
-										flexShrink: 0,
-									}}
-								>
-									✓
-								</div>
-								<div>
-									<div
-										style={{
-											fontSize: ".77rem",
-											fontWeight: 600,
-											color: "#fff",
-										}}
-									>
-										{t('hero.anonymousTitle')}
-									</div>
-									<div
-										style={{
-											fontSize: ".63rem",
-											color: "rgba(249,189,21,.7)",
-											marginTop: 2,
-										}}
-									>
-										{t('hero.anonymousSub')}
-									</div>
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>

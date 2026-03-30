@@ -39,7 +39,6 @@ export default function Footer() {
 						<a href="tel:+380931707989" className="footer-phone">(093) 170 79 89</a>
 						<a href="mailto:crmrenessans1@gmail.com" className="footer-email">crmrenessans1@gmail.com</a>
 						<div className="footer-addr"> г. Астана, просп. Республики 34</div>
-						<div className="footer-lic">{t('footer.license')}</div>
 					</div>
 				</div>
 				<div className="footer-bottom">

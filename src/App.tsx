@@ -9,7 +9,6 @@ import Hero from "./components/Hero";
 import Methods from "./components/Methods";
 import Services from "./components/Services";
 import Stages from "./components/Stages";
-import Stats from "./components/Stats";
 import Team from "./components/Team";
 import Testimonials from "./components/Testimonials";
 import DetoxAccordion from "./components/DetoxAccordion";
@@ -82,7 +81,6 @@ export default function App() {
 			<Header />
 			<main>
 				<Hero />
-				<Stats />
 				<Services />
 				<About />
 				<Stages />
