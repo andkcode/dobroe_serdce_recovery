@@ -68,7 +68,7 @@ export default function DetoxAccordion() {
 										{ ico: "🌡️", val: "36.6", unit: "°C", lbl: t('detox.temp') },
 										{ ico: "💊", val: "3/3", unit: "", lbl: t('detox.meds') },
 										{ ico: "🕐", val: "24/7", unit: "", lbl: t('detox.monitoring') },
-									].map(({ ico, val, unit, lbl }) => (
+									].map(({ val, unit, lbl }) => (
 										<div key={lbl} style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(249,189,21,.1)", borderRadius: ".85rem", padding: ".75rem" }}>
 											<div style={{ fontSize: "1.3rem", fontWeight: 400, color: "#fff", lineHeight: 1 }}>
 												{val}
