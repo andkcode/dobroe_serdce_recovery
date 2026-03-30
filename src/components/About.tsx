@@ -707,12 +707,12 @@ export default function About() {
 									{
 										icon: "🔒",
 										label: "Анонимность",
-										col: "#4ade80",
+										col: "#f9bd15",
 									},
 									{
 										icon: "⚖️",
 										label: "Лицензия МЗ",
-										col: "#82bef5",
+										col: "#f9bd15",
 									},
 									{
 										icon: "✅",
