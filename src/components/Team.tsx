@@ -1,14 +1,15 @@
 import { useTranslation } from "react-i18next";
 
+import employer from "../assets/team/employer.png";
+import employer1 from "../assets/team/employer1.png";
+import employer2 from "../assets/team/employer2.png";
 export default function Team() {
 	const { t } = useTranslation();
 
 	const specialists = [
-		{ name: t('team.spec1'), role: t('team.spec1Role'), emoji: "👨‍⚕️" },
-		{ name: t('team.spec2'), role: t('team.spec2Role'), emoji: "👩‍⚕️" },
-		{ name: t('team.spec3'), role: t('team.spec3Role'), emoji: "👨‍⚕️" },
-		{ name: t('team.spec4'), role: t('team.spec4Role'), emoji: "👩‍⚕️" },
-		{ name: t('team.spec5'), role: t('team.spec5Role'), emoji: "👨‍⚕️" },
+		{ name: t('Шляпа Усатая'), role: t('team.spec1Role'), src: employer },
+		{ name: t('Кал Калыч'), role: t('team.spec2Role'), src: employer1 },
+		{ name: t('Конь Шляпы'), role: t('team.spec3Role'), src: employer2 },
 	];
 
 	return (
@@ -31,7 +32,7 @@ export default function Team() {
 					{specialists.map((spec, i) => (
 						<div key={i} className={`team-card reveal d-${(i % 5) + 1}`}>
 							<div className={`team-avatar ${i % 2 === 0 ? 'team-avatar-even' : 'team-avatar-odd'}`}>
-								{spec.emoji}
+								<img src={spec.src} alt={spec.name} />
 								<div className="team-hover-overlay">
 									<span className="team-overlay-txt">
 										{t('team.consultation')}

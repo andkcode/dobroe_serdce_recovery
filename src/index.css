@@ -1603,8 +1603,11 @@ linear-gradient(165deg, #247cbb 0%, #428fc2 55%, #2b7bb1
 #team { background: var(--iv-50); }
 .team-grid {
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	gap: clamp(0.75rem, 2vw, 1.25rem);
+	justify-items: center;
+	align-items: center;
+	background: 100%;
 }
 .team-card {
 	border-radius: 1.6rem;
@@ -1638,6 +1641,13 @@ linear-gradient(165deg, #247cbb 0%, #428fc2 55%, #2b7bb1
 }
 .team-avatar-even { background: linear-gradient(155deg, var(--sap-900), var(--sap-700)); }
 .team-avatar-odd { background: linear-gradient(155deg, var(--sap-800), var(--sap-600)); }
+.team-avatar img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+}
 .team-hover-overlay {
 	position: absolute;
 	inset: 0;
@@ -2102,7 +2112,7 @@ a.contact-val:hover { color: var(--sap-600); }
 	.stages-grid { grid-template-columns: 1fr 1fr; }
 
 	/* Team */
-	.team-grid { grid-template-columns: repeat(2, 1fr); }
+	.team-grid { grid-template-columns: repeat(2, 1fr); align-items: center; justify-items: center; }
 
 	/* Detox visual */
 	.detox-vis-main { aspect-ratio: 3 / 2; }
