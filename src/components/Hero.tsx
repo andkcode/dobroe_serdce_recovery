@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
+import heroVideo from "../assets/12212769_1080_1920_30fps.mp4";
 
 const PARTICLES = [
 	{
@@ -112,6 +113,16 @@ export default function Hero() {
 
 	return (
 		<section id="hero">
+			<video
+				className="hero-video-bg"
+				autoPlay
+				muted
+				loop
+				playsInline
+				preload="metadata"
+			>
+				<source src={heroVideo} type="video/mp4" />
+			</video>
 			<div className="hero-bg"></div>
 			<div className="hero-blob-1"></div>
 			<div className="hero-blob-2"></div>
