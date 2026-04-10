@@ -841,7 +841,7 @@ textarea.input { resize: none; min-height: 120px; }
 	display: flex;
 	align-items: center;
 	overflow: hidden;
-	background: #010c32;        /* exact HTML dark navy */
+	background: #ffffff;
 	padding-top: 60px;
 }
 .hero-video-bg {
@@ -1095,20 +1095,20 @@ textarea.input { resize: none; min-height: 120px; }
 ═══════════════════════════════════════════════════ */
 #stats {
 	padding: clamp(3rem,7vw,4.5rem) 0;
-	background: linear-gradient(135deg, #1a4f72, #368cbc);
+	background: #ffffff;
 	position: relative;
 	overflow: hidden;
 }
 #stats::before {
 	content: "";
 	position: absolute; inset: 0;
-	background: repeating-linear-gradient(45deg, transparent, transparent 48px, rgba(255,255,255,.012) 48px, rgba(255,255,255,.012) 96px);
+	background: none;
 }
 #stats::after {
 	content: "";
 	position: absolute; top: 0; left: 0; right: 0;
 	height: 1px;
-	background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35), transparent);
+	background: none;
 }
 .stats-grid {
 	display: grid;
@@ -1123,15 +1123,12 @@ textarea.input { resize: none; min-height: 120px; }
 	font-size: clamp(1.8rem,5vw,4rem);
 	font-weight: 700;
 	line-height: 1.2;
-	background: linear-gradient(135deg, #0cb195, #4dcfbc, #088a73);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
+	color: #6ba3d4;
 	margin-bottom: 0.4rem;
 }
 .stat-lbl {
 	font-size: var(--text-sm);
-	color: rgba(255,255,255,0.52);
+	color: #6ba3d4;
 	letter-spacing: 0.08em;
 	font-weight: 400;
 }
@@ -1139,7 +1136,7 @@ textarea.input { resize: none; min-height: 120px; }
 /* ═══════════════════════════════════════════════════
    SERVICES — #f6f6f6 cards from HTML
 ═══════════════════════════════════════════════════ */
-#services { background: #f6f6f6; }
+#services { background: #ffffff; }
 .services-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(min(100%,340px), 1fr));
@@ -1418,7 +1415,7 @@ textarea.input { resize: none; min-height: 120px; }
 /* ═══════════════════════════════════════════════════
    METHODS (TABS)
 ═══════════════════════════════════════════════════ */
-#methods { background: var(--iv-100); }
+#methods { background: #ffffff; }
 .methods-grid {
 	display: grid;
 	grid-template-columns: 1fr 1.15fr;
@@ -1552,7 +1549,7 @@ textarea.input { resize: none; min-height: 120px; }
 /* ═══════════════════════════════════════════════════
    TEAM
 ═══════════════════════════════════════════════════ */
-#team { background: #f6f6f6; }
+#team { background: #ffffff; }
 .team-grid {
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
@@ -1612,7 +1609,7 @@ textarea.input { resize: none; min-height: 120px; }
 /* ═══════════════════════════════════════════════════
    TESTIMONIALS
 ═══════════════════════════════════════════════════ */
-#testi { background: var(--iv-100); }
+#testi { background: #ffffff; }
 .testi-grid {
 	display: grid;
 	grid-template-columns: 1fr 1.65fr;
@@ -1783,7 +1780,7 @@ textarea.input { resize: none; min-height: 120px; }
 /* ═══════════════════════════════════════════════════
    CONTACT
 ═══════════════════════════════════════════════════ */
-#contact { background: #f6f6f6; }
+#contact { background: #ffffff; }
 .contact-grid {
 	display: grid;
 	grid-template-columns: 1fr 1.3fr;

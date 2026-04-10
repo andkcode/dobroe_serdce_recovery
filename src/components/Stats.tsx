@@ -7,7 +7,7 @@ export default function Stats() {
 
 	const STATS = [
 		{ icon: "🏆", target: 21, suffix: "", label: t('stats.label1') },
-		{ icon: "❤️", target: 11619, suffix: "+", label: t('stats.label2') },
+		{ icon: "❤️", target: 11619, suffix: "", label: t('stats.label2') },
 		{ icon: "👨‍⚕️", target: 21, suffix: "", label: t('stats.label3') },
 		{ icon: "💊", target: 35, suffix: "", label: t('stats.label4') },
 	];
