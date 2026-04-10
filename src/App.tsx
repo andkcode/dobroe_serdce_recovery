@@ -19,7 +19,7 @@ import "./index.css";
 export default function App() {
 	const [languageSelected, setLanguageSelected] = useState(false);
 
-	const handleLanguageSelect = (language: string) => {
+	const handleLanguageSelect = () => {
 		setLanguageSelected(true);
 	};
 
