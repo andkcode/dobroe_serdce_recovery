@@ -1593,8 +1593,8 @@ textarea.input { resize: none; min-height: 120px; }
 	transition: all 0.35s cubic-bezier(0.16,1,0.3,1);
 	min-width: 34px;
 }
-.acc-ic.open     { background: #368cbc; color: #fff; transform: rotate(45deg); }
-.acc-ic:not(.open) { background: var(--iv-200); color: var(--ink-500); }
+.acc-ic.open     { background: var(--brand-400); color: #fff; transform: rotate(45deg); }
+.acc-ic:not(.open) { background: var(--brand-400); color: #fff; }
 .acc-body { overflow: hidden; max-height: 0; transition: max-height 0.45s cubic-bezier(0.16,1,0.3,1); }
 .acc-body.open { max-height: 500px; }
 .acc-p { font-size: var(--text-base); color: var(--ink-500); line-height: 1.82; padding-bottom: 1.75rem; font-weight: 300; }
