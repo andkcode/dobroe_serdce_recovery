@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import About from "./components/About";
 import Contacts from "./components/Contacts";
 import CTA from "./components/CTA";
@@ -13,9 +13,16 @@ import Stats from "./components/Stats";
 import Team from "./components/Team";
 import Testimonials from "./components/Testimonials";
 import DetoxAccordion from "./components/DetoxAccordion";
+import LanguageSelector from "./components/LanguageSelector";
 import "./index.css";
 
 export default function App() {
+	const [languageSelected, setLanguageSelected] = useState(false);
+
+	const handleLanguageSelect = (language: string) => {
+		setLanguageSelected(true);
+	};
+
 	useEffect(() => {
 		// Scroll reveal
 		const revealEls = document.querySelectorAll(
@@ -74,9 +81,9 @@ export default function App() {
 				card.removeEventListener("mouseleave", onLeave);
 			});
 		};
-	}, []);
+	}, [languageSelected]);
 
-	return (
+	return languageSelected ? (
 		<div className="app">
 			<Header />
 			<main>
@@ -95,5 +102,7 @@ export default function App() {
 			</main>
 			<Footer />
 		</div>
+	) : (
+		<LanguageSelector onLanguageSelect={handleLanguageSelect} />
 	);
 }
