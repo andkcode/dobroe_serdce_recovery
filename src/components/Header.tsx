@@ -54,7 +54,7 @@ export default function Header() {
 				<div className="mobile-menu-header">
 					<a href="#hero" className="mobile-menu-logo" onClick={closeMobile}>
 						<span className="mobile-menu-logo-text">
-							<span className="text-gold">CZM</span>FREEDOM
+							<span className="text-gold">CZM </span>FREEDOM
 						</span>
 					</a>
 					<button
@@ -133,7 +133,7 @@ export default function Header() {
 				<div className="nav-inner">
 					<a href="#hero" className="nav-logo">
 						<span className="nav-logo-text">
-							<span className="text-gold">CZM</span>FREEDOM
+							<span className="text-gold">CZM </span>FREEDOM
 						</span>
 						<span className="nav-logo-sub">{t('header.clinic')}</span>
 					</a>

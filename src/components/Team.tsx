@@ -40,10 +40,6 @@ export default function Team() {
 									<div className="team-overlay-line"></div>
 								</div>
 							</div>
-							<div className="team-info">
-								<div className="team-name">{spec.name}</div>
-								<div className="team-role">{spec.role}</div>
-							</div>
 						</div>
 					))}
 				</div>
