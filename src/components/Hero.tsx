@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import heroVideo from "../assets/hero/garden.mp4";
+import heroVideo from "../assets/hero/forest.mp4";
 
 const PARTICLES = [
 	{
