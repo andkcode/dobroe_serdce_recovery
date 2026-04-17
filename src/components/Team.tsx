@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 
-import employer from "../assets/team/employer.png";
-import employer1 from "../assets/team/employer1.png";
-import employer2 from "../assets/team/employer2.png";
+import employer from "../assets/team/employer3.jpeg";
+import employer1 from "../assets/team/employer1.jpeg";
+import employer2 from "../assets/team/employer2.jpeg";
 export default function Team() {
 	const { t } = useTranslation();
 
