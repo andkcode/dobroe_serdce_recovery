@@ -425,7 +425,7 @@ body {
 	border-radius: 1.5rem;
 	padding: clamp(2rem, 5vw, 3.5rem) clamp(2rem, 5vw, 4rem);
 	gap: 2rem;
-	overflow: hidden;
+	overflow: visible;
 	position: relative;
 }
 .cert-left {
@@ -437,6 +437,7 @@ body {
 }
 .cert-title {
 	font-size: clamp(1.5rem, 3vw, 2rem);
+	
 	font-weight: 700;
 	color: #fff;
 	line-height: 1.2;
@@ -472,12 +473,14 @@ body {
 }
 .cert-right {
 	flex: 0 0 auto;
-	max-width: 45%;
+	align-self: end;
+	margin-top: -8rem;
+	margin-right: -4rem;
+	margin-bottom: -3.5rem;
 }
 .cert-img {
-	width: 100%;
-	max-width: 360px;
 	border-radius: 0.5rem;
+	min-width: 50rem;
 	cursor: pointer;
 	transition: transform 0.3s ease;
 	filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.2));
