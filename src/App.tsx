@@ -15,6 +15,7 @@ import Testimonials from "./components/Testimonials";
 import Certificates from "./components/Certificates";
 import DetoxAccordion from "./components/DetoxAccordion";
 import LanguageSelector from "./components/LanguageSelector";
+import VideoWidget from "./components/VideoWidget";
 import "./index.css";
 
 export default function App() {
@@ -86,6 +87,7 @@ export default function App() {
 
 	return languageSelected ? (
 		<div className="app">
+			<VideoWidget />
 			<Header />
 			<main>
 				<Hero />
