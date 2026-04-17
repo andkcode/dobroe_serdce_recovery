@@ -133,7 +133,6 @@ export default function Header() {
 			<nav id="nav">
 				<div className="nav-inner">
 					<a href="#hero" className="nav-logo">
-						<img src={logo} alt="CZM Freedom" className="nav-logo-img" />
 						<div className="nav-logo-text-wrap">
 							<span className="nav-logo-text">
 								<span className="text-gold">CZM </span>FREEDOM
